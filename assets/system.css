@@ -1,3 +1,10 @@
+.btn{
+  display: block;
+  padding: 1.2em;
+  margin: 1.2em;
+}
+
+
 .wrapper{
   box-sizing:border-box;
   min-width: 200px;
