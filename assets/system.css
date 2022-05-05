@@ -1,15 +1,17 @@
 .wrapper{
-min-width: 50vw;
-/* width: 80%; */
+  box-sizing:border-box;
+  min-width: 200px;
+width: 80%; 
 /* max-width: 400px; */
- height: 50vh;
 /* min-height: 200px; */
+ height: 50vmax;
+/* max-height: 200px; */
+padding: 5%;
 border: 3px solid rgb(0, 217, 255);
 margin: auto;
-margin-top: 10%;
-overflow: scroll
-/* overflow-y: scroll; */
-}
+/* margin-top: 10%; */
+/* overflow: scroll */
+overflow-y: scroll; }
 
 .inner{
   box-sizing: border-box;
@@ -18,7 +20,7 @@ overflow: scroll
   padding: 5%;
   border: inherit;
   border-color: blue;
-  margin: 10%;
+  /* margin: 10%; */
 }
 
 /* vw  vh vmin vmax */
